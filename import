@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ruby2.0 -rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::WordPress.run({
+      "dbname"   => "wpblog",
+      "user"     => "root",
+      "password" => "asifDiablu",
+      "host"     => "127.0.0.1",
+      "prefix"   => "blog_",
+      "categories"     => true,
+      "more_excerpt"   => true,
+      "more_anchor"    => true,
+      "status"         => ["publish"]
+    })'

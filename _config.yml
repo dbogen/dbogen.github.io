@@ -1,0 +1,15 @@
+# Site settings
+title: "bogen.org"
+email: "djb@bogen.org"
+description: "Now with occasional clarity."
+baseurl: ""
+url: "http://www.bogen.org"
+timezone: "America/Chicago"
+permalink:    '/:year/:month/:day/:title/'
+paginate: 10
+paginate_path: "archive/page:num"
+exclude: ['s3_website.yml']
+username: "dbogen"
+
+# Build settings
+markdown: kramdown
